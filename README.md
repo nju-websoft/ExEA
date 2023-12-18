@@ -3,22 +3,7 @@
 This repository is the official implementation of ExEA, the method proposed in paper ***Generating Explanations to Understand and Repair***
 ***Embedding-based Entity Alignment.*** （ICDE 2024）
 
-> Entity alignment is the task to seek identical entities in different knowledge graphs, which is a long-standing research topic in the database and Semantic Web fields. 
->
-> The development of deep learning techniques motivates recent work to embed entities in vector space and find entity alignment via the nearest
-> neighbor search.
->
->  Although embedding-based entity alignment has gained marked success in recent years, it still remains a “black box” with few explanations for entity alignment decisions.
->
->  In this paper, we present the first work that generates human-readable explanations for understanding and repairing embedding-based entity alignment results.
->
-> We first compare the neighbor entities and relations of an entity alignment pair to build the subgraph matching graph as a local explanation.
->
->  We then construct an alignment dependency graph to understand the given pair from an abstract perspective.
->
-> Finally, we repair the entity alignment results by using alignment dependency graphs to resolve three types of alignment conflicts. 
->
-> Experiments on benchmark datasets demonstrate the effectiveness and generalization ability of the proposed framework in generating explanations and repairing results for embedding-based entity alignment.
+> Entity alignment is the task to seek identical entities in different knowledge graphs, which is a long-standing research topic in the database and Semantic Web fields. The development of deep learning techniques motivates recent work to embed entities in vector space and find entity alignment via the nearest neighbor search. Although embedding-based entity alignment has gained marked success in recent years, it still remains a “black box” with few explanations for entity alignment decisions. In this paper, we present the first work that generates human-readable explanations for understanding and repairing embedding-based entity alignment results. We first compare the neighbor entities and relations of an entity alignment pair to build the subgraph matching graph as a local explanation. We then construct an alignment dependency graph to understand the given pair from an abstract perspective. Finally, we repair the entity alignment results by using alignment dependency graphs to resolve three types of alignment conflicts.  Experiments on benchmark datasets demonstrate the effectiveness and generalization ability of the proposed framework in generating explanations and repairing results for embedding-based entity alignment.
 
 ## Environment
 
